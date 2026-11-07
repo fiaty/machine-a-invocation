@@ -1,0 +1,28 @@
+body {
+    font-family: Gabriola;
+    background-color: #ebf5c7;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+section {
+    background-color: rgb(252, 255, 222);
+    max-width: 500px;
+}
+
+button {
+    background-color: #8c9ff6;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.cache {
+    display: none;
+}
