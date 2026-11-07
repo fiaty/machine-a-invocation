@@ -3,12 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">" 
+    <link rel="stylesheet" href="style.css"> 
     <title>Machine a invocation</title>
 </head>
 <body>
-    <h1>La Machine à Invocation</h1>
+  <header>
+    <h1>🔮 La Machine à Invocation</h1>
+  </header> 
 
+  <main>
+   <section>
+    <h2>Entre ton prenom et choisis ta creature magique !</h2>
+        <form id="invocation">
+         <div>
+            <label for="prenom">Quel est ton prénom ?</label>
+            <input type="text" id="prenom" placeholder="Entre ton prénom">
+         </div>
+         <div>
+            <label for="creature">Quelle créature veux-tu invoquer ?</label>
+            <select id="creature">
+         </div>  
+              <option value="">--Choisir une option--</option>     
+              <option value="Chat-Octo">🐙 le Chat-Octo</option>
+              <option value="Dragon-Debug">🐉 le Dragon-Debug</option>
+              <option value="Licorne-CSS">🦄 la Licorne-CSS</option>
+              <option value="Renard-Refacto">🦊 le Renard-Refacto</option>
+            </select>
+              <button type="submit">🪄Invoquer !</button>
+    
+</main>
     <script src="script.js"></script>
 </body>
 </html>
